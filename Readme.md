@@ -25,32 +25,6 @@ This project is a **Health Care Assistant** application built using Python, [Lan
 - **Streamlit**: For creating the user interface.
 - **Python**: Core programming language.
 
-## Setup Instructions
-
-1. Clone the repository:
-    ```bash
-    git clone <repository-url>
-    cd langchain-healthcare-assistant
-    ```
-
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up your OpenAI API key:
-    - Create a `constants.py` file in the root directory.
-    - Add the following line:
-      ```python
-      openai_key = "your_openai_api_key"
-      ```
-
-4. Run the application:
-    ```bash
-    streamlit run main.py
-    ```
-
-5. Open the app in your browser at `http://localhost:8501`.
 
 ## File Structure
 
@@ -64,6 +38,4 @@ This project is a **Health Care Assistant** application built using Python, [Lan
 - Integrate with external APIs for real-time health data.
 - Improve the user interface for better accessibility.
 
-## Disclaimer
 
-This application is for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
